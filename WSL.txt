@@ -1,0 +1,7 @@
+ dism.exe /omline/enable-feature /feturename:VirtualMachinePlatform /all /norestart
+cat /etc/os-release
+ sudo apt update && sudo apt upgrade -y
+sudo apt install kali-desktop-xfce-y
+sudo apt install xrdp -y
+sudo service xrdp start
+ip add 
